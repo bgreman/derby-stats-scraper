@@ -10,3 +10,6 @@ This is a script that scrapes the stats.wftda.com/rankings site and exports the 
 
 ### Requirements
 Requires you to have installed the `requests` and `BeautifulSoup4` Python modules.
+
+### Use
+Open a command prompt, navigate to the directory where `rankings_scraper.py` is and run it using `python rankings_scraper.py`
