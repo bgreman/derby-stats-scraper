@@ -20,9 +20,6 @@ for row in rankings_body.contents[1:None:2]:
     weight = gpa_td.span.string.strip()
     data.append({"rank": rank, "league": league, "region": region, "gpa": gpa})
     
-for league in data[0:5]:
-    print(league)
-    
 direct_to_champs = [league for league in data if int(league["rank"]) < 5]
 print(f"Champs Bye (Top {len(direct_to_champs)}):")
 for league in direct_to_champs:
