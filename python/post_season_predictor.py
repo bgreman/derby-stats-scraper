@@ -55,6 +55,6 @@ print("")
     
 europe = [league for league in data if int(league["rank"]) > 28 and "Europe" in league["region"]]
 europe_cup = europe[0:8]
-print(f"Europe (Next {len(europe_cup)} in Europe):")
+print(f"Europe Cup (Next {len(europe_cup)} in Europe):")
 for league in europe_cup:
     print(f"\t#{league['rank']} {league['league']} {league['gpa']}")
